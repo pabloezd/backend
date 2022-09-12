@@ -12,22 +12,10 @@ function onInit() {
 
 }
 
-/** EJEMPLOS */
 const mensaje = () => {
     return 'Hola mundo desde NodeJS'
 }
 
-// app.get('/',(req, res) =>{
-//     res.send(mensaje());
-// });
-
-// app.get('/frutas', (req, res) => {
-//     res.send(['pera, banana, manzana, uva']);
-// });
-
-// app.get('/render', (req, res) => {
-//     res.send(['<h1 style="color:blue;">Soy un H1 desde NodeJs</h1>']);
-// });
 
 app.get('/',(req, res) =>{
     res.send('<h1>Desafío 3 - NodeJS - Tutora: Laura Acuña</h1>');
